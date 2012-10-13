@@ -1,4 +1,6 @@
 Rspectut::Application.routes.draw do
+  resources :phones
+
   resources :contacts
 
   # The priority is based upon order of creation:
